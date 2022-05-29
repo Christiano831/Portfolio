@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+}
+
+p {
+    margin: 0 20vw 0 20vw;
+}
+
+.skills {
+    margin: 0 20vw 0 20vw;
+    text-align: left;
+}
+
+.skills1 {
+    float: left;
+    width: 50%;
+}
+
+.skills2 {
+    float: right;
+    width: 50%;
+}
