@@ -1,9 +1,23 @@
 body {
     text-align: center;
+    background-color: #53565a;
+    color: white ;
 }
 
 p {
     margin: 0 20vw 0 20vw;
+}
+
+a {
+    color: #b4fdc0;
+}
+
+h1 {
+    color: #009ccf;
+}
+
+h3 {
+    color: #78d4f7;
 }
 
 .skills {
