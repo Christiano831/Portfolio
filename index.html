@@ -4,46 +4,305 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js"></script>
     <title>Christian Espinola</title>
 </head>
 <body>
-    <h1>Christian Espinola</h1>
-    <p>I am a software engineer with a background in zookeeping and animal care. I bring my passion for the animal industry into each work environment.</p>
-    <h3>Skills</h3>
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">Christian Espinola</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li> -->
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Hi, it's me Christian</h2>
+                <p class="hero_desc">I am a software engineer with a background in zookeeping and animal care. I bring my passion for the animal industry into each work environment.</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/image1.jpeg" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <!-- <p> I am an aspiring Junior Software Engineer with a background in animal husbandry. I am a critical thinker that enjoys solving complex problems. I am eager to quickly learn new technologies and be a part of a productive team. I am consistently recognized as a competent leader, fast-paced learner, and trustworthy worker.
+                        
+                    </p> -->
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Name: Christian Espinola</li>
+                                <li>Age: 27</li>
+                                <li>Occupation: Software Engineer</li>
+
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Pronouns: He/Him</li>
+                                <li>Hobbies: Snowboarding, Anime, and Video Games</li>
+                                <li>Occupation: Web Developer</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <p> I started at a young age working with my father's construction company and learned how to work in a fast paced environment. 
+                            I then went to Fresno State with the intention of being a veterinarian. While studying I got a job offer to work at Fresno State Dairy. 
+                            There I learned to work efficiently while remaining calm to not stress out the cattle. I proved myself to be a great asset to the team and got promoted to Herdsman. 
+                            As a herdsman I was responsible for training new employees and managing the student employees. I was also responsilble for the overall herd health of over 300 cattle. 
+                            Soon after I got an internship at a veterinary clinic, Clovis Pet Hospital. I learned to remain calm during emergency situations while still being able to think quick. 
+                            The owner liked my work ethic and ability to work under pressure and offered me a part time postition as I was still in school. 
+                            When I graduated from Fresno State, I actually went to veterinary school for a year. 
+                            After a year of vet school, I decided it was too much of an investment as it is very expensive. I left veterinary school and moved back to Monterey, California. 
+                            I got a job offer with Monterey Zoo and I quickly got promoted to be an Elephant Keeper which is known as the highest position available at the zoo.
+                            I was able to show off all my skills and I was actually allowed to be the first lead elephant keeper without a supervisor.
+                            The zoo transferred the elephants to a new facility and so I no longer had the same challenge as before. I was seeking a new challenge and so I revisited the tech industry.
+                            I have always had an affinity with technology and I was recommended with programming. I decided to dive into programming and so I enrolled in a software engineering immersive program with General Assembly.
+                            I have been enjoying every moment of programming and am thrilled to overcome the endless problem solving that will come with it.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
     
-    <div class="skills1">
-        <ul class="skills">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>MongoDB</li>
-        <li>Mongoose</li>
-        <li>Python</li>
-        </ul>
-    </div>
-    <div class="skills2">
-        <ul class="skills">
-        <li>C++</li>
-        <li>C#</li>
-        <li>Slack</li>
-        <li>GitHub</li>
-        <li>Heroku</li>
-        <li>PostreSQL</li>
-        <li>Django</li>
-        <li>React</li>
-        </ul>
-    </div>
-    <br>
-    <h3>Projects</h3>
-    <p><a href="https://github.com/Christiano831/Battleship-Project">BATTLESHIP</a></p>
-    <p><a href="https://github.com/Christiano831/Pokemon-Trader">Pokemon Trading Database</a></p>
-    <p><a href="https://github.com/Christiano831/Noah-Group-Project">Veterinary EMR</a></p>
-    <p><a href="https://github.com/Christiano831/my-friends">MyFriends</a></p>
-    <h3>Contact Me</h3>
-    <p><a href="https://www.linkedin.com/in/christian-espinola/">LinkedIn</a></p>
-    <p></p>
+    <!-- <section id="services">
+        <div class="container">
+            <h1 class="text-center">Services</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">Website Development</h4>
+                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i>
+                            <h4 class="card-title mt-3">Website Design</h4>
+                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='far servicesIcon fa-check-circle'></i>
+                            <h4 class="card-title mt-3">Website Deployment</h4>
+                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-search'></i>
+                            <h4 class="card-title mt-3">SEO</h4>
+                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-shield-alt'></i>
+                            <h4 class="card-title mt-3">DevOps</h4>
+                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-wrench'></i>
+                            <h4 class="card-title mt-3">QA</h4>
+                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/myFriends.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">MyFriends</h4>
+                            <p class="card-text">Instagram replica created using React. It uses AWS to upload pictures.</p>
+                            <div class="text-center">
+                                <a href="https://myfriends-cj.herokuapp.com/" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/vetEMR.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Veterinary EMR</h4>
+                            <p class="card-text">Group project creating an EMR for a vet clinic. This project uses Django and Python.</p>
+                            <div class="text-center">
+                                <a href="https://noah-emr.herokuapp.com/" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/pokemonTrader.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Pokemon Trader</h4>
+                            <p class="card-text">Project that uses Pokemon API to  display images based on user input.</p>
+                            <div class="text-center">
+                                <a href="https://pokemon-trader-by-cj.herokuapp.com/" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/battleship.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Battleship</h4>
+                            <p class="card-text">This projects is a game similar to the board game BATTLESHIP. It uses an AI to increase the difficulty of the game.</p>
+                            <div class="text-center">
+                                <a href="https://christiano831.github.io/Battleship-Project/" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Twitter Clone</h4>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Blog App</h4>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+    </section>
+
+    <!-- <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6"> -->
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <!-- <div style="text-decoration:none; overflow:hidden;max-width:100%;width:500px;height:500px;"><div id="mymap-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=monterey+CA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="googlemap-html" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="make-mapdata">best bootstrap themes</a><style>#mymap-display img{max-height:none;max-width:none!important;background:none!important;}</style></div>
+                </div>
+
+                <div class="col-lg-6"> -->
+                    <!-- form fields -->
+                    <!-- <form>
+                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section> -->
+
+    <!-- <footer id="footer">
+        <div class="container-fluid">
+            <div class="social-icons mt-4">
+                <p>hello</p>
+                <p>goodbye</p>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer> -->
+
 </body>
 </html>
