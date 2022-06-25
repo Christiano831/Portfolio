@@ -26,10 +26,10 @@
 }
 
 /* services section css */
-.servicesText.card {
+/* .servicesText.card {
     height: 280px;
     cursor: pointer;
-  }
+  } */
 .servicesIcon {
     font-size: 36px;
     text-align: center;
@@ -43,6 +43,16 @@
 }
 .servicesText:hover {
     border: 1px solid #008000;
+}
+.hide {
+    display: none;
+  }
+.journey-title:hover + .hide {
+    display: block;
+  }
+
+.navbar {
+    background-color: #454545;
 }
 
 /* display background color black on navbar scroll */
@@ -69,9 +79,9 @@
 
 /* spacing on all sections */
 #about, #services, #portfolio, #contact {
-    margin-top: 4rem;
-    padding-top: 4rem;
+    margin-top: 2rem;
+    padding-top: 2rem;
 }
 #contact {
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
 }
